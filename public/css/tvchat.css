@@ -1,0 +1,158 @@
+body{
+    margin-left: 0;
+    margin-bottom: 0;
+    margin-top: 0;
+    margin-right: 0;
+}
+body, html {
+    overflow-x: hidden;
+    overflow-y: hidden;
+    background-color: #000000;
+}
+.tvchat_screen{
+    width: 800px;
+    height: 600px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    background-image: url("/img/tira_tvchat.jpg");
+}
+/*Secciones*/
+.titulo{
+    width: 800px;
+    height: 160px;
+    background-image: url("/img/fondo_encabezado_tvchat.jpg");
+}
+.luces{
+    background-image: url("/img/luces.gif");
+    background-repeat: repeat-x;
+    height: 12px;
+    width: 800px;
+}
+.interactive{
+    width: 740px;
+    height: 365px;
+    padding-bottom: 1px;
+    padding-top: 0px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.juegos{
+    width: 360px;
+    height: 360px;
+    float: left;
+    background-color: #ffffff;
+}
+.conductora{
+    width: 360px;
+    height: 360px;
+    float:right;
+    background-color: #ffffff;
+}
+.tvchat{
+    width: 800px;
+    height: 30px;
+    background-image: url("/img/tira_fondo_tvchat.jpg");
+    background-repeat: repeat-x;
+    border-top: 3px solid;
+    border-bottom: 3px solid;
+    border-color: #ffff00;
+    margin-bottom: 2px;
+}
+#ventana {
+    position: relative;
+    width: 800px;
+    position: relative;
+}
+.scrollingtext {
+    color: #ffffff;
+    white-space:nowrap;
+    position:absolute;
+    font-size: 14px;
+    font-style: oblique;
+}
+.static-text {
+    position: absolute;
+
+    z-index: 50;
+    font-weight: bold;
+    width: 160px;
+    height: 30px;
+}
+#scroller {
+    background-color: #B22222;
+    color: #FFFFFF;
+    font-size: 14px;
+    line-height: 28px;
+}
+.tvchat_logo{
+    background-image: url("/img/tira_fondo_tvchat_logo.png");
+    background-repeat: repeat-x;
+    width: 119px;
+    height: 30px;
+    margin: 0;
+    float:left
+}
+.tvchat_logo_detalle_derecha{
+    width: 30px;
+    height: 30px;
+    margin-right: 0;
+    float:left
+}
+.tvchat_logo img{
+    padding-top: 5px;
+    padding-left: 26px;
+}
+.marquee{
+    font-family: arial;
+    font-weight: bold;
+    width: 674px;
+}
+.jugar_izquierda{
+    float: left;
+}
+.logo_afortunado{
+    float: left;
+}
+.jugar_derecha{
+    float: left;
+}
+.jugar_izquierda img{
+    position: absolute;
+    z-index:1;
+}
+.logo_afortunado img{
+    position: absolute;
+    z-index:2;
+    padding-left: 230px;
+}
+.jugar_derecha img{
+    position: absolute;
+    z-index:1;
+    padding-left: 513px;
+}
+.costo{
+    height: 7px;
+    color: white;
+    font-family: arial;
+    font-weight: bold;
+    font-size: 10px;
+    padding-left: 90px;
+}
+#numeros_sorteados{
+    margin-left: 50px;
+}
+.numero_ganador{
+    width: 50px;
+    height: 50px;
+    background: #808080;
+    float: left;
+    border-collapse: collapse;
+    border-color: black;
+    margin-left: 2px;
+}
+.numero{
+    text-align: center;
+    top: auto;
+}
